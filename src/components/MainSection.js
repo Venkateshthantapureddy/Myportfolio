@@ -3,7 +3,7 @@ import './MainSection.css';
 import Typed from 'typed.js';
 import { motion, useInView } from 'framer-motion';
 import k1 from '../assets/images/v2.jpg';
-import resume from '../assets/images/kiran_resume.pdf';  
+import resume from '../assets/images/resume.pdf';  
 
 const MainSection = () => {
   const typedElement = useRef(null);
@@ -32,7 +32,7 @@ const MainSection = () => {
           <div>and I am a passionate</div>
           <span className="gold z-0" id="element" ref={typedElement}></span>
           <div className="buttons">
-            <a href={resume} download="Kiran_Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href={resume} download="VenkateshThantapureddy-Resume.pdf" target="_blank" rel="noopener noreferrer">
               <button className="btn">Download Resume</button>
             </a>
             <a href="https://github.com/Venkateshthantapureddy" target="_blank" rel="noopener noreferrer">
