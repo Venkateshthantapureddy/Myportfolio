@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import './MainSection.css';
 import Typed from 'typed.js';
 import { motion, useInView } from 'framer-motion';
-import k1 from '../assets/images/k3.png';
+import k1 from '../assets/images/v2.jpg';
 import resume from '../assets/images/kiran_resume.pdf';  
 
 const MainSection = () => {
@@ -12,7 +12,7 @@ const MainSection = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["Web Developer", "Node Developer", "Student At RAGHU"],
+      strings: ["Web Developer", "Java Developer", "Student At RAGHU"],
       typeSpeed: 50,
     };
     const typed = new Typed(typedElement.current, options);
@@ -28,14 +28,14 @@ const MainSection = () => {
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          Hi, My Name is <span className="gold">Kiran</span>
+          Hi, My Name is <span className="gold">Venkatesh Thantapureddy</span>
           <div>and I am a passionate</div>
           <span className="gold z-0" id="element" ref={typedElement}></span>
           <div className="buttons">
             <a href={resume} download="Kiran_Resume.pdf" target="_blank" rel="noopener noreferrer">
               <button className="btn">Download Resume</button>
             </a>
-            <a href="https://github.com/kirankalluru" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Venkateshthantapureddy" target="_blank" rel="noopener noreferrer">
               <button className="btn">Visit Github</button>
             </a>
           </div>
@@ -47,7 +47,7 @@ const MainSection = () => {
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }}
         >
-          <img className='rounded-lg' src={k1} alt="Kiran" />
+          <img className='rounded-lg' src={k1} alt="Venky" />
         </motion.div>
       </div>
     </main>

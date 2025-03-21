@@ -9,19 +9,27 @@ import py from "../assets/images/python.png";
 import react from "../assets/images/react.png";
 import java from "../assets/images/java.png";
 import nodejs from "../assets/images/nodejs.png";
+import mern from "../assets/images/mern.jpeg";
+import cpp from "../assets/images/cpp.svg";
+import sql from "../assets/images/sql.png";
+import jsp from "../assets/images/jsp.jpeg"; 
 
 import "./SecondarySection.css";
 
 const SecondarySection = () => {
   const courses = [
-    { img: c, title: "C Programming", desc: "Mastered C programming basics, data structures, and algorithms during BTech semester 1.", bgColor: "bg-blue-400" },
-    { img: html, title: "HTML", desc: "Learned HTML for creating and structuring web pages during BTech semester 2.", bgColor: "bg-red-400" },
-    { img: css, title: "CSS", desc: "Studied CSS for styling web pages and enhancing UI design in BTech semester 3.", bgColor: "bg-green-400" },
-    { img: js, title: "JavaScript", desc: "Acquired JavaScript skills for dynamic web development in BTech semester 3.", bgColor: "bg-yellow-400" },
-    { img: py, title: "Python", desc: "Gained proficiency in Python for scripting, automation, and data analysis in BTech semester 3.", bgColor: "bg-purple-400" },
-    { img: react, title: "React", desc: "Learned React for building interactive user interfaces in BTech semester 4.", bgColor: "bg-indigo-400" },
-    { img: java, title: "Java", desc: "Studied Java for object-oriented programming and backend development in BTech semester 4.", bgColor: "" },
-    { img: nodejs, title: "Node.js", desc: "Mastered Node.js for server-side development and building scalable applications in BTech semester 4.", bgColor: "bg-teal-400" },
+    { img: c, title: "C Programming", desc: "Learned C for system programming and foundational coding concepts.", bgColor: "bg-gray-400" },
+    { img: cpp, title: "CPP", desc: "Learned C++ programming for efficient programming and software development.", bgColor: "bg-pink-400" },
+    { img: java, title: "Java", desc: "Learned Java for building robust, scalable applications, including web, and mobile.", bgColor: "" },
+    { img: react, title: "React", desc: "Learned React for building dynamic and efficient user interfaces with components.", bgColor: "bg-indigo-400" },
+    { img: html, title: "HTML", desc: "Learned HTML for structuring web content and creating responsive layouts.", bgColor: "bg-red-400" },
+    { img: css, title: "CSS", desc: "Learned CSS for styling web pages, layouts, animations, and responsiveness.", bgColor: "bg-green-400" },
+    { img: js, title: "JavaScript", desc: "Learned JavaScript for dynamic web development, interactivity, and event handling.", bgColor: "bg-yellow-400" },
+    { img: py, title: "Python", desc: "Learned Python for versatile programming, automation, web development, and scripting.", bgColor: "bg-purple-400" },
+    { img: mern, title: "MERN", desc: "Learned MERN Stack for full-stack web development, building dynamic applications.", bgColor: "bg-orange-400" },
+    { img: nodejs, title: "Node.js", desc: "Learned Node.js for building fast, server-side applications using javascript.", bgColor: "bg-teal-400" },
+    { img: sql, title: "Database", desc: "Learned databases for storing, managing, and retrieving structured data efficiently.", bgColor: "bg-lime-400" },
+    { img: jsp, title: "JSP", desc: "Learned JSP for building dynamic web pages and integrating Java with HTML seamlessly.", bgColor: "bg-fuchsia-400" },
   ];
 
   return (

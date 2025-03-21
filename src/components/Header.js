@@ -26,11 +26,11 @@ const Header = () => {
 
         {/* Navigation Links */}
         <ul className={menuOpen ? 'open' : ''}>
-          <li><Link to="/">Home</Link></li>
-          <li><NavLink to="/About" activeClassName="active">About me</NavLink></li>
-          <li><NavLink to="/SecondarySection" activeClassName="active">Skills</NavLink></li>
-          <li><NavLink to="/Projects" activeClassName="active">Projects</NavLink></li>
-          <li><NavLink to="/Contactme" activeClassName="active">Contact me</NavLink></li>
+          <li><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink></li>
+          <li><NavLink to="/About" className={({ isActive }) => (isActive ? 'active' : '')}>About me</NavLink></li>
+          <li><NavLink to="/SecondarySection" className={({ isActive }) => (isActive ? 'active' : '')}>Skills</NavLink></li>
+          <li><NavLink to="/Projects" className={({ isActive }) => (isActive ? 'active' : '')}>Projects</NavLink></li>
+          <li><NavLink to="/Contactme" className={({ isActive }) => (isActive ? 'active' : '')}>Contact me</NavLink></li>
         </ul>
       </nav>
     </header>

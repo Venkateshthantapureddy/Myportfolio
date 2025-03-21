@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react"; // Added useEffect
+import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -9,14 +9,12 @@ import emailjs from "@emailjs/browser";
 const ContactMe = () => {
   const form = useRef();
 
-
-
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_nmmdkkg", "template_21zrepc", form.current, {
-        publicKey: "7MRdXRgB6IfO43SOd",
+      .sendForm("service_92l7b0p", "template_rgjd3wg", form.current, {
+        publicKey: "29dGwjTUHGn_Or1Bp",
       })
       .then(
         () => {
@@ -111,7 +109,7 @@ const ContactMe = () => {
 
   {/* WhatsApp Button */}
   <WhatsAppButton
-    phoneNumber="9381455691"
+    phoneNumber="9014282889"
     message="Hello, I would like to inquire about your services."
   />
 </motion.form>

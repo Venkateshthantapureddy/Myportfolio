@@ -25,7 +25,7 @@ const ParticlesComponent = ({ id }) => {
       },
       background: {
         color: {
-          value: "transparent", // Ensures background is not blocking content
+          value: "transparent",
         },
       },
       fpsLimit: 120,
